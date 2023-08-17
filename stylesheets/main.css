@@ -10,12 +10,15 @@ header {
   color: white;
   display: flex;
   padding: 10px;
-  justify-content: right;
+  justify-content: flex-end;
+}
+
+.header2 > div {
+  margin: 7px;
 }
 
 .links {
   text-decoration-line: underline;
-  margin: 10px;
 }
 
 footer {
@@ -30,8 +33,6 @@ footer {
 }
 
 .main {
-  width: 1920px;
-  height: 1080px;
   display: flex;
   flex-direction: row;
 }
@@ -39,4 +40,23 @@ footer {
 .side {
   display: flex;
   flex-direction: column;
+}
+
+.small_images {
+  object-fit: cover;
+  height: 140px;
+  width: 220px;
+  float: left;
+}
+
+.paragraphs {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+footer {
+  bottom: 0;
+  position: absolute;
+  clear: both;
+  padding: 15px;
 }
