@@ -30,6 +30,7 @@ footer {
 #title {
   font-weight: bold;
   font-size: 34px;
+  width: 1350px;
 }
 
 .main {
@@ -37,9 +38,33 @@ footer {
   flex-direction: row;
 }
 
+.center {
+  width: 1800px;
+  margin: 15px 40px 10px 40px;
+}
+
+.center > img {
+  height: 360px;
+  width: 100%;
+  object-fit: contain;
+  padding-bottom: 15px;  
+}
+
+.center > h1 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
 .side {
   display: flex;
   flex-direction: column;
+}
+
+.small_text {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px;
 }
 
 .small_images {
@@ -47,6 +72,7 @@ footer {
   height: 140px;
   width: 220px;
   float: left;
+  padding-top: 10px;
 }
 
 .paragraphs {
